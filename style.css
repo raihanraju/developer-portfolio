@@ -45,10 +45,24 @@ h2{
     margin-right: 5%;
     padding-left: 20px;
     border-radius: 10px;
-
+  
 }
 .experiences-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#slide-color{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#slide-colorr{
+    border-left: 10px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
